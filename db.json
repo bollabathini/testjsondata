@@ -1,7 +1,7 @@
 {
   "technicaldata": [
-    { "global_rearaxlegear": "AD401SA", "global_retarder": "Scania" },
-    { "global_rearaxlegear": "AD401SB", "global_retarder": "Scania" }
+    { "global_rearaxlegear": "AD401SA", "global_retarder": "Scania", "global_technicaldataid": "e7a418ec-93f1-4cd7-bc9e-530ff9188953" },
+    { "global_rearaxlegear": "AD401SB", "global_retarder": "Scania", "global_technicaldataid": "b47a2a98-8406-449d-bcb6-df7ad4fb46a4" }
   ],
   "posts": [
     { "id": 1, "title": "Post 1" },
