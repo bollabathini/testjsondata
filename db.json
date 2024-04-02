@@ -2,7 +2,8 @@
   "technicaldata": [
     { "global_rearaxlegear": "AD401SA", "global_retarder": "Scania", "global_gearbox" : "GRSO905R", "global_fuelsystem" : "XPI", "global_technicaldataid": "e7a418ec-93f1-4cd7-bc9e-530ff9188953" },
     { "global_rearaxlegear": "ZD401SB", "global_retarder": "Scania", "global_gearbox" : "PPSO110R", "global_fuelsystem" : "XPI", "global_technicaldataid": "b47a2a98-8406-449d-bcb6-df7ad4fb46a4" },
-    { "global_rearaxlegear": "BD401SB", "global_retarder": "Volvo", "global_gearbox" : "TRSO110R", "global_fuelsystem" : "XPI", "global_technicaldataid": "81843eb0-a869-406e-85e3-a8f1c305c7c3" }
+    { "global_rearaxlegear": "BD401SB", "global_retarder": "Volvo", "global_gearbox" : "TRSO110R", "global_fuelsystem" : "XPI", "global_technicaldataid": "81843eb0-a869-406e-85e3-a8f1c305c7c3" },
+    { "global_rearaxlegear": "PP401SB", "global_retarder": "Volvo", "global_gearbox" : "GPSO110R", "global_fuelsystem" : "XPI", "global_technicaldataid": "79ef8a6d-01d3-4c8f-89ec-60024156f6dd" }
   ],
   "posts": [
     { "id": 1, "title": "Post 1" },
