@@ -1,0 +1,863 @@
+{
+  "type": "record",
+  "name": "PartyEvent",
+  "namespace": "com.scania.qing.events.party",
+  "fields": [
+  {
+      "name": "customerContactPersonNameUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerContactPersonNameUpdate",
+          "fields": [
+            {
+              "name": "customerContactPersonName",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "firstSeenDateUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "FirstSeenDateUpdate",
+          "fields": [
+            {
+              "name": "firstSeenDate",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "bizStartDateUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "BizStartDateUpdate",
+          "fields": [
+            {
+              "name": "bizStartDate",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "customerIndustyUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerIndustyUpdate",
+          "fields": [
+            {
+              "name": "customerIndusty",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "fileCountryUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "FileCountryUpdate",
+          "fields": [
+            {
+              "name": "fileCountry",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "bizPrimaryNameUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "BizPrimaryNameUpdate",
+          "fields": [
+            {
+              "name": "bizPrimaryName",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerInvoiceCompanyNameUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerInvoiceCompanyNameUpdate",
+          "fields": [
+            {
+              "name": "customerInvoiceCompanyName",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerNameUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerNameUpdate",
+          "fields": [
+            {
+              "name": "customerName",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerTradeNameUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerTradeNameUpdate",
+          "fields": [
+            {
+              "name": "customerTradeName",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "fmatCustomerNameUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "FmatCustomerNameUpdate",
+          "fields": [
+            {
+              "name": "fmatCustomerName",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "bizAddressMailingUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "BizAddressMailingUpdate",
+          "fields": [
+            {
+              "name": "bizAddressLine1Mailing",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "bizAddressLine2Mailing",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizCityMailing",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizCountryMailing",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizPostalCodeMailing",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizStreetNameMailing",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizStreetNumberMailing",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	 {
+      "name": "customerVisitingAddressUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerVisitingAddressUpdate",
+          "fields": [
+            {
+              "name": "customerVisitingAddress",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "customerVisitingAddressCountry",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "customerVisitingCity",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "customerVisitingPostalCode",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	 {
+      "name": "customerMailingAddressUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerMailingAddressUpdate",
+          "fields": [
+            {
+              "name": "CustomerMailingAddress",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "CustomerMailingAddressCountry",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "CustomerMailingCity",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "CustomerMailingPostalCode",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	 {
+      "name": "customerInvoiceAddressUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerInvoiceAddressUpdate",
+          "fields": [
+            {
+              "name": "customerInvoiceAddress",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "customerInvoiceAddressCountry",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "customerInvoiceCity",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "customerInvoicePostalCode",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	 {
+      "name": "bizAddressPrimaryUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "BizAddressPrimaryUpdate",
+          "fields": [
+            {
+              "name": "bizAddressLine1Primary",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "bizAddressLine2Primary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizCityPrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizCountryPrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizPostalCodePrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizStreetNamePrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizStreetNumberPrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizLatitudePrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizLongitudePrimary",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	 {
+      "name": "bizAddressRegisteredUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "BizAddressRegisteredUpdate",
+          "fields": [
+            {
+              "name": "bizAddressLine1Registered",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "bizAddressLine2Registered",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizCityRegistered",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizCountryRegistered",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizPostalCodeRegistered",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizStreetNameRegistered",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "bizStreetNumberRegistered",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	 {
+      "name": "fmatCustomerAddressUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "FmatCustomerAddressUpdate",
+          "fields": [
+            {
+              "name": "fmatCustomerAddress",
+              "type": [
+                "string"
+              ]
+            },
+            {
+              "name": "fmatCustomerCountry",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "fmatCustomerCity",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "fmatCustomerPostalCode",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+	  {
+      "name": "customerEmailUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerEmailUpdate",
+          "fields": [
+            {
+              "name": "customerEmail",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerFaxNumberUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerFaxNumberUpdate",
+          "fields": [
+            {
+              "name": "customerFaxNumber",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerPhoneNumberUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerPhoneNumberUpdate",
+          "fields": [
+            {
+              "name": "customerPhoneNumber",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerIdUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerIdUpdate",
+          "fields": [
+            {
+              "name": "customerId",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "customerVatNumberUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "CustomerVatNumberUpdate",
+          "fields": [
+            {
+              "name": "customerVatNumber",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "dunsNumberUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "DunsNumberUpdate",
+          "fields": [
+            {
+              "name": "dunsNumber",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "fmatVatNumberUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "FmatVatNumberUpdate",
+          "fields": [
+            {
+              "name": "fmatVatNumber",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "sgrpiUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "SgrpiUpdate",
+          "fields": [
+            {
+              "name": "sgrpi",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+
+    {
+      "name": "dmsKeyUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "DmsKeyUpdate",
+          "fields": [
+            {
+              "name": "dmsKey",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "scaniaGlobalUniqueIdUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "ScaniaGlobalUniqueIdUpdate",
+          "fields": [
+            {
+              "name": "scaniaGlobalUniqueId",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "dunsBizRegistrationNumberUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "DunsBizRegistrationNumberUpdate",
+          "fields": [
+            {
+              "name": "dunsBizRegistrationNumber",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "dunsBizOperatingStatusUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "DunsBizOperatingStatusUpdate",
+          "fields": [
+            {
+              "name": "dunsBizOperatingStatus",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    },
+	{
+      "name": "dunsBizGlobalUltimateUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "DunsBizGlobalUltimateUpdate",
+          "fields": [
+            {
+              "name": "dunsBizGlobalUltimateString",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            },
+			{
+              "name": "dunsBizGlobalUltimateDescription",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ]
+        }
+      ],
+      "default": null
+     },
+    {
+      "name": "fmatExtCustomerReferenceUpdate",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "FmatExtCustomerReferenceUpdate",
+          "fields": [
+            {
+              "name": "fmatExtCustomerReference",
+              "type": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ],
+      "default": null
+    }
+  ]
+}
